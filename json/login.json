@@ -1,0 +1,28 @@
+{
+    "loginRecords":[
+        {
+            "Username":"soumya",
+            "Password":"soumya123"
+        },
+         {
+            "Username":"chaitanya",
+            "Password":"chaitanya123"
+        },
+         {
+            "Username":"james",
+            "Password":"james123"
+        },
+         {
+            "Username":"john",
+            "Password":"john123"
+        },
+         {
+            "Username":"david",
+            "Password":"david123"
+        },
+        {
+            "Username":"rohan",
+            "Password":"rohan123"
+        }
+    ]
+}

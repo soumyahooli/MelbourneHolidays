@@ -1,0 +1,59 @@
+<div  class="row pageTop">
+    <div class="col-md-6">
+  <h1>We value your Feedback.</h1>
+    <form class="form-horizontal" name="feedForm" novalidate ng-controller="feedbackCtrl as fctrl" ng-submit="fctrl.submit(feedback,feedForm.$valid)">
+  <div class="form-group">
+    <label for="username" class="col-sm-3 control-label">Name</label>
+    <div class="col-sm-7">
+      <input type="text" class="form-control" name="name" ng-model="feedback.username" placeholder="Enter your Name" ng-required="true"
+             ng-pattern="/^[a-zA-Z]*$/">
+        <div ng-show="feedForm.name.$error.required && feedForm.name.$dirty">
+        <small style="color:red;display:block;text-align:center">Enter your name</small>
+        </div>
+        <div ng-show="feedForm.name.$error.pattern">
+        <small style="color:red;display:block;text-align:center">Enter a valid name</small>
+        </div>
+    </div>
+  </div>
+   <div class="form-group">
+    <label for="email" class="col-sm-3 control-label">Email Id</label>
+    <div class="col-sm-7">
+      <input type="email" class="form-control" name="email" ng-model="feedback.email" placeholder="Enter your Email Id" ng-required="true"
+              >
+        <div ng-show="feedForm.email.$invalid && feedForm.email.$touched">
+        <small style="color:red;display:block;text-align:center">Enter a valid Email Id</small>
+        </div>
+    </div>
+  </div>
+         <div class="form-group">
+    <label for="contactno" class="col-sm-3 control-label">Contact Number</label>
+    <div class="col-sm-7">
+      <input type="text" class="form-control" name="contact" ng-model="feedback.contactno" placeholder="Enter your Contact Number" ng-required="true" ng-pattern="/^[0-9]{10}$/" maxlength="10" >
+        <div ng-show="feedForm.contact.$error.required && feedForm.contact.$dirty">
+        <small style="color:red;display:block;text-align:center">Enter your Contact Number</small>
+        </div>
+        <div ng-show="feedForm.contact.$error.pattern">
+        <small style="color:red;display:block;text-align:center">Enter a valid Contact Number</small>
+        </div>
+    </div>
+  </div>
+        <div class="form-group">
+    <label for="comments" class="col-sm-3 control-label">Comments</label>
+    <div class="col-sm-7">
+        <textarea type="text" class="form-control" name="comment" ng-model="feedback.comments" placeholder="Enter your Comments" ng-required="true"></textarea>
+         <div ng-show="feedForm.comment.$touched && feedForm.comment.$invalid">
+        <small style="color:red;display:block;text-align:center">Please enter your comments</small>
+        </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-3 col-sm-7">
+      <input type="submit" class="btn btn-primary" ng-disabled="feedForm.$invalid" value="Send" />
+      
+    </div>
+  </div>
+</form>
+    
+    </div>
+    
+</div>

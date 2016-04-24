@@ -1,0 +1,90 @@
+<div class="row pageTop">
+    <h4 class="contactUsTop">How Can We Help You?</h4>
+
+<div class="col-md-4">
+   <div class="well">
+    <p><span class="glyphicon glyphicon-earphone" aria-hidden="true">  <b class="contactno">123456789</b></span></p>
+ <p>  <span class="glyphicon glyphicon-envelope" aria-hidden="true">  <b class="emailid">info@MelbourneHolidays.com</b></span> </p> </div> 
+  <h4>Office Hours</h4>
+    <table class="table table-bordered">
+    <tr><th>Day</th>
+       <th>Working Hours</th>
+       </tr>
+       <tr><td>Monday</td>
+       <td>9am - 5pm</td></tr>
+       </tr>
+       <tr><td>Tuesday</td>
+       <td>10am - 5pm</td></tr>
+    </tr>
+       <tr><td>Wednesday</td>
+       <td> 9am - 6pm</td></tr>
+    </tr>
+       <tr><td>Thursday</td>
+       <td>9am - 5pm</td></tr>
+</tr>
+       <tr><td>Friday</td>
+       <td>10am - 5pm</td></tr>
+</tr>
+       <tr><td>Saturday</td>
+       <td>9am - 5pm</td></tr>
+     <tr><td>Sunday</td>
+       <td>Holiday</td></tr>
+    
+    </table>
+    </div>
+<div class="col-md-6">
+<h4 class="enquiryHeading">You have any enquiry?</h4>
+     <form class="form-horizontal" name="enquiryForm" novalidate >
+  <div class="form-group">
+    <label for="username" class="col-sm-3 control-label">Name</label>
+    <div class="col-sm-7">
+      <input type="text" class="form-control" name="name" ng-model="enquiry.username" placeholder="Enter your Name" ng-required="true">
+        <div ng-show="enquiryForm.name.$touched && enquiryForm.name.$invalid">
+        <small style="color:red;display:block;text-align:center">Enter a valid Name</small>
+        </div>
+    </div>
+  </div>
+   <div class="form-group">
+    <label for="email" class="col-sm-3 control-label">Email Id</label>
+    <div class="col-sm-7">
+      <input type="email" class="form-control" name="email" ng-model="enquiry.email" placeholder="Enter your Email Id" ng-required="true">
+        <div ng-show="enquiryForm.email.$touched && enquiryForm.email.$invalid">
+        <small style="color:red;display:block;text-align:center">Enter a valid Email Id</small>
+        </div>
+    </div>
+  </div>
+         <div class="form-group">
+    <label for="contactno" class="col-sm-3 control-label">Contact Number</label>
+    <div class="col-sm-7">
+      <input type="text" class="form-control" name="contact" ng-model="enquiry.contactno" placeholder="Enter your Contact Number" ng-required="true">
+        <div ng-show="enquiryForm.contact.$touched && enquiryForm.contact.$invalid">
+        <small style="color:red;display:block;text-align:center">Enter a valid Contact Number</small>
+        </div>
+    </div>
+  </div>
+        <div class="form-group">
+    <label for="comments" class="col-sm-3 control-label">Enquiries Please</label>
+    <div class="col-sm-7">
+        <textarea type="text" class="form-control" name="comment" ng-model="enquiry.comments" placeholder="Enter your enquiries" ng-required="true"></textarea>
+         <div ng-show="enquiryForm.comment.$touched && enquiryForm.comment.$invalid">
+        <small style="color:red;display:block;text-align:center">Please enter your enquiry</small>
+        </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-3 col-sm-7">
+      <input type="submit" class="btn btn-primary" ng-disabled="enquiryForm.$invalid" value="Ask" />
+    </div>
+  </div>
+</form>
+    <div class="well col-sm-offset-3 postalAddress">
+     <h4>Postal Address</h4>
+    <p><span class="glyphicon glyphicon-info-sign" aria-hidden="true">
+        01/2-3, Victoria Street </br>
+        North Melbourne</br>
+        Victoria
+        
+        </span></p>
+    </div>
+</div>
+</div>

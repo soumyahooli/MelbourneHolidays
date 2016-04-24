@@ -1,0 +1,27 @@
+{
+    "mostVisitedPlaces":[
+    {
+            "id" : 1,
+            "name":"Great Ocean Road",
+            "image":"images/Most_Visited_Places/Great_ocean_road.jpg",
+            "content":"The Great Ocean Road is an Australian National Heritage listed 243 kilometres (151 mi) stretch of road along the south-eastern coast of Australia between the Victorian cities of Torquay and Allansford. Built by returned soldiers between 1919 and 1932 and dedicated to soldiers killed during World War I, the road is the world largest war memorial."
+        },
+        {    "id" :2,
+            "name":"Philip Island",
+            "image":"images/Most_Visited_Places/philip_island.jpg",
+            "content":"Rural Phillip Island, off Australia’s southern coast, near Melbourne, is known for its storied motor circuit, as well as for its wildlife. At Phillip Island Nature Park, spectators gather nightly to watch the Penguin Parade, when fairy penguins make their return to burrows on the beach. "
+        },
+        {
+            "id" : 3,
+            "name":"Queen Victoria Market",
+            "image":"images/Most_Visited_Places/vic_market.jpg",
+            "content":"The Queen Victoria Market (also known as the Queen Vic Markets or the Queen Vic, and locally as Vic Market is a major landmark in Melbourne, Australia, and at around seven hectares (17 acres) is the largest open air market in the Southern Hemisphere."
+        },
+        {
+            "id" : 4 ,
+            "name":"Melbourne City Tour",
+            "image":"images/Most_Visited_Places/city_tour.jpg",
+            "content":"Melbourne, Victoria’s coastal capital, is a city of stately 19th-century buildings and tree-lined boulevards. Yet at its centre is the strikingly modern Federation Square development, with plazas, bars, restaurants and cultural events along the Yarra River. "
+        }
+]
+}

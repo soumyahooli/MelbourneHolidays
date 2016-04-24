@@ -1,0 +1,105 @@
+
+/*bootstrap overrides */
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+
+.navbar-default {
+    background-color: #2F4F4F;
+    border-color: #2F4F4F;
+}
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #2F4F4F;
+    color:#fff;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #000;
+}
+ .navbar-default .navbar-nav>.active>a:focus {
+    color: #555;
+    background-color: #B0C4DE;
+}
+/* bootstrap overrides ends */
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .form-signin-heading {
+    margin-bottom: 10px;
+}
+
+.form-signin input {
+    margin-bottom:6px;
+}
+.pageTop{margin-top:40px !important;
+margin-top: -40px}
+.homeTop{margin-top: :-20px}
+.navbar-default .navbar-nav>li>a{
+    cursor: pointer
+}
+.nav-home-icons{margin: 4px;
+    padding-right: 2px;}
+
+.panelHolder{margin-top:10px;}
+
+.panelMostVisitedImg{
+    float:left;
+    width:140px;
+    height:70px;
+    margin: 7px;
+    padding-right: 2px;}
+ 
+/* form validation for register.html */
+.emptyField{color:red}
+
+.main-content{min-height: 543px}
+
+
+.gallery img{height: 120px;
+     width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;}
+
+.well-lg.gallery {
+
+    padding-bottom:6px;
+    padding-top: 5px;
+    
+}
+
+.aboutUs img{padding: 20px;
+ width:70%; 
+    height:240px;}
+
+input.ng-invalid.ng-touched , textarea.ng-invalid.ng-touched{
+    border: 1px solid red;
+}
+
+input[disabled="disabled"]{
+    opacity:0.4 ;
+    cursor: not-allowed !important;
+    pointer-events: auto !important;
+}
+.contactno{font-size: 16px}
+.contactUsTop{margin-top: 35px}
+.enquiryHeading{    margin-left: 218px;
+    margin-bottom: 20px;}
+.postalAddress{width:58%}
+.footerCustom{margin-top:17px }
+.btn-primary ,.btn-primary:hover,.btn-primary[disabled],.btn-primary[disabled]:hover{background-color: #2F4F4F;border-color: #2F4F4F}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+     border-color: #2F4F4F; 
+}
